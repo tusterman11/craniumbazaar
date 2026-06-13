@@ -21,5 +21,5 @@ document
         const message = document.getElementById("message").value;
 
 
-        alert("Message sent!");
+        alert("Envoy sent!");
     });
