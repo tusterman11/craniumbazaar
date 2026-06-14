@@ -57,6 +57,48 @@ a:hover {
     max-width: 600px;
 }
 
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.product-detail-image {
+    width: 100%;
+    max-width: 420px;
+    display: block;
+    border: 2px solid #8b0000;
+    border-radius: 8px;
+    background-color: #111;
+    padding: 6px;
+    align-self: center;
+}
+
+.product-title {
+    background-color: #111;
+    border: 1px solid #8b0000;
+    padding: 18px;
+}
+
+.price {
+    color: #ffc400;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.buy-now-button {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 18px;
+}
+
 .contact-container {
     background-color: #1a1a1a;
     border: 2px solid #8b0000;
@@ -123,10 +165,6 @@ nav {
     text-align: center;
 }
 
-nav a {
-    margin: 0 10px;
-    font-weight: bold;
-}
 
 input,
 textarea {
